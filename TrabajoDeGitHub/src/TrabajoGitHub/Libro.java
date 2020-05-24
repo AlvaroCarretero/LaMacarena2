@@ -23,6 +23,13 @@ public class Libro {
         pedirNumCopias();
     }
     
+    void Libro(int n) {
+        pedirTitulo();
+        pedirAutor();
+        pedirNumPaginas();
+        pedirNumCopias();
+    }
+    
     void pedirTitulo() {
         titulo=PedirDatosTeclado.pedirString("Inserte el titulo del libro: ");
     }
